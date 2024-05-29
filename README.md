@@ -2,6 +2,7 @@
   <a href="https://www.linkedin.com/in/ivohradek"><img src="./assets/icons/linkedin.png" alt="linkedin" width=38 /></a>
   <a href="https://stackoverflow.com/users/772992/hradecek"><img src="./assets/icons/stackoverflow.png" alt="stackoverflow" width=38 /></a>
   <a href="https://www.instagram.com/hradecek"><img src="./assets/icons/instagram.png" alt="instagram" width=38 /></a>
+  <a href="https://www.chess.com/member/hradecheck"><img src="./assets/icons/chessdotcom.png" height=38></a>
 </p>
 <h1 align="center"><code>$ whoami</code></h1>
 <p align="center">
