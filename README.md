@@ -55,12 +55,5 @@ val ivo = Engineer(
 ## `$ git log --stat`
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=hradecek&show_icons=true&hide_border=true&theme=github_dark&bg_color=0d1117">
-    <img src="https://github-readme-stats.vercel.app/api?username=hradecek&show_icons=true&hide_border=true&theme=default" alt="GitHub stats" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hradecek&hide_border=true&theme=github-dark-blue&background=0d1117">
-    <img src="https://streak-stats.demolab.com?user=hradecek&hide_border=true&theme=default" alt="GitHub streak" height="165">
-  </picture>
+  <img src="https://raw.githubusercontent.com/hradecek/hradecek/metrics-renders/metrics.svg" alt="GitHub metrics: repositories, languages and a year of contributions" width="100%">
 </p>
