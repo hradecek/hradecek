@@ -60,7 +60,3 @@ val ivo = Engineer(
     <img src="https://streak-stats.demolab.com?user=hradecek&hide_border=true&theme=default" alt="GitHub contribution streak" height="165">
   </picture>
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/hradecek/hradecek/metrics-renders/metrics.svg" alt="GitHub metrics: repositories and activity" width="100%">
-</p>
