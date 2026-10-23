@@ -47,8 +47,8 @@ val ivo = Engineer(
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin%2Cjava%2Cspring%2Cgradle%2Ckubernetes%2Cdocker%2Cazure%2Cterraform%2Cgithubactions%2Cgrafana%2Cprometheus%2Clinux%2Cbash%2Cpowershell%2Cgit%2Cidea%2Cobsidian%2Craspberrypi&perline=9&theme=dark">
-    <img src="https://skillicons.dev/icons?i=kotlin,java,spring,gradle,kubernetes,docker,azure,terraform,githubactions,grafana,prometheus,linux,bash,powershell,git,idea,obsidian,raspberrypi&perline=9&theme=light" alt="Kotlin, Java, Spring, Gradle, Kubernetes, Docker, Azure, Terraform, GitHub Actions, Grafana, Prometheus, Linux, Bash, PowerShell, Git, IntelliJ IDEA, Obsidian, Raspberry Pi">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin%2Cjava%2Cspring%2Cgradle%2Cpostgres%2Ckafka%2Cjs%2Cpy%2Ckubernetes%2Cdocker%2Cazure%2Cterraform%2Cgithubactions%2Cgrafana%2Cprometheus%2Clinux%2Cbash%2Cpowershell%2Cgit%2Cidea%2Cobsidian%2Craspberrypi&perline=11&theme=dark">
+    <img src="https://skillicons.dev/icons?i=kotlin,java,spring,gradle,postgres,kafka,js,py,kubernetes,docker,azure,terraform,githubactions,grafana,prometheus,linux,bash,powershell,git,idea,obsidian,raspberrypi&perline=11&theme=light" alt="Kotlin, Java, Spring, Gradle, PostgreSQL, Kafka, JavaScript, Python, Kubernetes, Docker, Azure, Terraform, GitHub Actions, Grafana, Prometheus, Linux, Bash, PowerShell, Git, IntelliJ IDEA, Obsidian, Raspberry Pi">
   </picture>
 </p>
 
