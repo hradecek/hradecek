@@ -27,8 +27,10 @@ jobs:
           repositories_batch: 25
           config_timezone: Europe/Prague
           config_display: large
+          debug: yes
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
+          plugin_languages_ignored: scss, css, html, jupyter notebook
