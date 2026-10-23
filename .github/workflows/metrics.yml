@@ -24,6 +24,7 @@ jobs:
           template: classic
           base: header, repositories
           repositories: 200
+          repositories_batch: 25
           config_timezone: Europe/Prague
           config_display: large
           plugin_isocalendar: yes
@@ -31,8 +32,3 @@ jobs:
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 8
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_trim: yes
