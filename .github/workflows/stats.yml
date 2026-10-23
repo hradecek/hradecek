@@ -1,0 +1,39 @@
+# Renders scripts/stats.mjs into the stats branch once a day. Uses only the workflow token.
+name: Stats
+
+on:
+  schedule:
+    - cron: "23 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Render stats.svg
+        run: node scripts/stats.mjs > stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: hradecek
+      - name: Publish to the stats branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin stats
+          git worktree add out origin/stats
+          cp stats.svg out/stats.svg
+          cd out
+          git add stats.svg
+          if git diff --cached --quiet; then
+            echo "stats.svg unchanged"
+            exit 0
+          fi
+          git commit -m "Update stats.svg"
+          git push origin HEAD:stats

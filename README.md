@@ -55,8 +55,5 @@ val ivo = Engineer(
 ## `$ git log --stat`
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=hradecek&hide_border=true&theme=github-dark-blue&background=0d1117">
-    <img src="https://streak-stats.demolab.com?user=hradecek&hide_border=true&theme=default" alt="GitHub contribution streak" height="165">
-  </picture>
+  <img src="https://raw.githubusercontent.com/hradecek/hradecek/stats/stats.svg" alt="GitHub contributions over the last year, per year and per weekday" width="100%">
 </p>
