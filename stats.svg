@@ -16,7 +16,7 @@
   <circle cx="40" cy="18.5" r="6" fill="#ffbd2e"/>
   <circle cx="60" cy="18.5" r="6" fill="#27c93f"/>
   <text x="450" y="23" text-anchor="middle" class="title">ivo@brno: ~</text>
-  <text x="880" y="23" text-anchor="end" class="title">updated 2026-11-07</text>
+  <text x="880" y="23" text-anchor="end" class="title">updated 2026-11-08</text>
   <text x="32" y="84" class="prompt">$</text>
   <text x="56" y="84" class="cmd">git shortlog --since="1 year ago"</text>
   <text x="32" y="124" class="dim">contributions</text>
